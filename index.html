@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Tabelas </title>
+    <link rel="stylesheet" href="css.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1> Analisador de Números </h1>
+    </header>
+    <section>
+        <div id="msg">
+           <p>
+              <label for="iNNSC"> Númerode(1 á 100): </label>
+              <input type="number" name="nNNSC" id="iNNSC" min="0" placeholder="digite um numero">
+              <input type="button" value="adicionar" onclick="verificar()">
+           </p>
+        </div>
+        <div id="foto">
+           <p>
+            <select name="tabuada" id="seltabuada" size="10">
+                <option> Digite um Número </option>
+            </select>
+            <input type="button" value="Finalizar" onclick="finalizando()">
+           </p>
+           <p id="resf">
+
+           </p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; MicaioMonteiro</p>
+    </footer>
+</body>
+</html>
