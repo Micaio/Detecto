@@ -22,6 +22,9 @@ if(n1.value.length == 0 || n1.value > 100 || n1.value <=0){
  }
 }
 function finalizando(){
+    if(vet.length == 0){
+        window.alert('Informe algum numero')
+    }else{
     var res = window.document.getElementById('resf')
     res.innerHTML = `Ao todo temos ${vet.length} números cadastrados`
     vet.sort()
@@ -34,4 +37,6 @@ function finalizando(){
     }
     res.innerHTML += `Samando todos os valores temos ${soma}.</br>`
     res.innerHTML += `A media dos valores é ${soma/tam}`
+   }
+
 }
